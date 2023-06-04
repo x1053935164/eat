@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: -1;
+	}
+
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+		height: 100vh;
+		background-image: url(./images/2.jpg);
+		background-size: 100%;
+	}
+
+    .title {
+      width: 800px;
+      height: 200px;
+      background-color: aqua;
+      font-size: 36px;
+      font-family: "楷体";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(./images/1.jpg);
+      background-size: 100%;
+      color: #fff;
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+    .zhu p {
+      font-size: 18px;
+      font-family: "楷体";
+      margin: 10px 0;
+      color: #fff;
+    }
+    .cai p{
+      font-size: 24px;
+      margin: 10px 0;
+      font-family: "楷体";
+      color: #fff;
+    }
+  </style>
+</head>
+
+
+
+
+<body>
+  <div class="box">
+    <div class="title">
+      <p>今天吃什么？</p>
+    </div>
+    <div class="content">
+      <div class="zhu" style="width: 400px;">
+        
+      </div>
+      <div class="right">
+        <p><button style="width: 50px;height: 30px; font-size: 18px;font-family: 楷体;">菜名</button></p>
+
+        <div class="cai" >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./JS/c.js"></script>
+  <script src="./JS/z.js"></script>
+  <script>
+   
+   
+  </script>
+</body>
+
+</html>
